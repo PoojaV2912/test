@@ -1,0 +1,86 @@
+1. Method overloading having same method different parameter
+method having a set of statement or block of code.
+1. predefined : predefind is already defind by java
+2. userdefind : userdefind is defined by the user.
+
+class Cake{
+static void chooclate(string name){
+}
+static void chooclate(string name, int price)
+{
+
+}
+}
+
+2. Variable having a container to store the information.
+types of variabls
+1. static variable: static variable having outside the class.
+ex:String name="add"
+2. local variable : local variable having inside the method.
+class Cake{
+static void chooclate(string[] args){
+string name="cold";
+}
+3. Instance variable: decleard in the class using staic keyword 
+class bike{
+string name="honda";
+4.parameter:declaring the variable
+
+
+4.class Carrom{
+	int price;
+	String name;
+
+	Carrom()
+	{
+		System.out.println("Invoking constructor in Carrom");
+	}
+	
+	Carrom(int price)
+	{
+		System.out.println("Invoking int constructor in Carrom");
+		System.out.println("Price of Carrom Board :"+price);
+		this.price=price;
+	}
+	
+	Carrom(int price,String color)
+	{
+		System.out.println("Invoking int,String constructor in Carrom");
+		System.out.println("Price of Carrom Board :"+price);
+		System.out.println("Color of Carrom Board :"+color);
+		this.price=price;
+		this.name=name;
+	}
+}
+
+6.class Bike{
+  Static String brand;
+  Static float price;
+
+
+static{
+System.out.println("invoking main in static constructor");
+brand="honda";
+price="100000";
+}
+
+static void printStatic(String brand,float price){
+System.out.println("invoking main in printstatic constructor");
+}
+}
+
+
+class BikeRunner{
+public static void main(String[] args){
+
+Bike bike=new Bike();
+
+Bike.printStatic("honda",100000);
+}
+}
+
+
+
+
+
+
